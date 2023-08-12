@@ -15,7 +15,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 from PIL import Image
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR_OPEN_API_KEY"
  
 # Sidebar contents
 with st.sidebar:
@@ -33,14 +33,6 @@ load_dotenv()
  
 def main():
     st.header("Chat with PDF 💬")
-    # hide_st_style = """
-    #         <style>
-    #         #MainMenu {visibility: hidden;}
-    #         footer {visibility: hidden;}
-    #         header {visibility: hidden;}
-    #         </style>
-    #         """
-    # st.markdown(hide_st_style, unsafe_allow_html=True)
  
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
