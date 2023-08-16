@@ -4,7 +4,7 @@ from streamlit.elements.arrow_altair import ArrowAltairMixin
 from altair.vegalite.v4.api import Chart
 from dotenv import load_dotenv
 import pickle
-import altair as alt
+import altair as alt 
 from PyPDF2 import PdfReader
 from streamlit_extras.add_vertical_space import add_vertical_space
 from langchain.text_splitter import RecursiveCharacterTextSplitter
