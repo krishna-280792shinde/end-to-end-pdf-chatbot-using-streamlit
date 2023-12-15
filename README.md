@@ -1,4 +1,4 @@
-﻿# pdf-chatbot
+﻿# pdf-chatbot-application-using-streamlit
 
 ## The chatbot created looks like the image shown below:
 
